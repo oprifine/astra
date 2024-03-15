@@ -1,3 +1,4 @@
 dis("Hello, world!")
 
 ++ Dis is short for 'disclose'
+++ ^ That is a comment.

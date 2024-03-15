@@ -1,0 +1,26 @@
+&add ['matmod.asr']
+
+sty=ll
+
+from ['matmod.asr']\\
+    &add mat, &add const
+
+    ++ Operators
+    + or mat.add(v"{number/numbers}")
+    - or mat.minus(v"{number/numbers}")
+    / or mat.div(v"{number/numbers}")
+    * or mat.mult(v"{number/numbers}")
+    *^ or mat.expo(v"{number/numbers}")
+    /_ or mat.fldiv(v"{number/numbers}")
+    // or mat.sqrt(v"{number}")
+    ** or mat.sqr(v"{number})
+    ln or mat.nlog(v"{expression}" or )
+
+
+    
+    
+    
+    
+    
+    ++ Adding
+    mat.add()
